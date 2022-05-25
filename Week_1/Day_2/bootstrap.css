@@ -1,0 +1,63 @@
+.nav1 {
+       display: inline ;
+}
+
+#back {
+       background-image: url("Le-Morne.jpg") ;
+       background-repeat: no-repeat ;
+       background-position: center ;
+       background-size: cover ;
+       width: 100% ;
+       height:500px ;
+       position: relative ;
+      }
+
+.table{
+        text-align: center ;
+        align: center ;
+        margin-right: auto ;
+        margin-left: auto ;
+        margin-top: 30px ;
+}
+
+.center{
+        width: 500px ;
+        height: 1000px ;
+        margin-right: auto ;
+        margin-left: auto ;
+        margin-top: auto ;
+        margin-bottom: auto ;
+        text-align: center ;
+        font-size: 30px ;
+}
+
+
+
+* { box-sizing: border-box ;
+}
+
+.top-nav{
+        overflow: hidden ;
+        background-color: blue ;
+}
+
+.top-nav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.top-nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}

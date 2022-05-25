@@ -1,0 +1,44 @@
+.logo{
+    height: 96%;
+    width: 10%;
+    border: 2px solid red;
+    background-color: blue ;
+}
+
+.team{
+          height: 96%;
+          width: 20%;
+          border: 2px solid blue;
+          background-color: orange;
+}
+
+.product{
+          height: 95% ;
+          width: 70% ;
+          border: 2px solid yellow ;
+          background-color: lightblue ;
+}
+
+
+.flex-container4{
+    display: flex ;
+    border: 5px solid cyan ;
+    height: 100px;
+    width: 100%;
+    flex-direction: row ;
+    justify-content: flex-start ;
+    align-items: flex-start ;
+    flex-wrap: wrap;
+}
+
+.container40{
+        display: flex ;
+        border: 5px solid black ;
+        width: 100% ;
+        height: 50px ;
+
+
+
+
+
+}

@@ -1,0 +1,63 @@
+#table {
+        text-align:center ;
+        color: black ;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 20px ;
+
+
+}
+
+.di{
+        width: 300px ;
+        height: 700px ;
+        background-size: cover;
+        background-position: center ;
+        position: relative;
+}
+
+#pro1{
+        background-image: url(OIP.jfif) ;
+       /* background-size: cover;
+        background-position: center ;
+        padding: 40px 40px 40px 40px ;*/
+}
+#pro2{
+        background-image: url(image2.jpg) ;
+        /*background-size: cover;
+        background-position: center ;
+        padding: 40px 40px 40px 40px ;*/
+}
+#pro3{
+        background-image: url(download.jfif) ;
+        /*background-size: cover;
+        background-position: center ;
+        padding: 40px 40px 40px 40px ;*/
+}
+#pro4{
+        background-image: url(top.jfif) ;
+        /*background-size: cover;
+        background-position: center ;
+        padding: 40px 40px 40px 40px ;*/
+}
+
+.new{
+    width: 30px ;
+    height: 30px ;
+    display: block ;
+    float: right ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.dis{
+    width: 30px ;
+    height: 30px ;
+    display: block ;
+    float: left ;
+     position: absolute;
+    right: 10px;
+    top: 10px;
+}
+}
