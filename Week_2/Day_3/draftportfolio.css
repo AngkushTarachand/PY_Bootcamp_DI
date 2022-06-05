@@ -1,24 +1,26 @@
 .Portfolio{
 
             display: grid ;
-           /* border: 5px solid black ;*/
-            grid-template-columns: repeat(3, 200px)  ;
-            grid-template-rows: repeat(3, 200px) ;
-            grid-gap: 10px ;
+            /* border: 5px solid black ;*/
+            grid-template-columns: repeat(3, 350px)  ;
+            grid-template-rows: repeat(2, 420px) ;
+            grid-gap: 5px ;
             width: 100% ;
-            height: 425px ;
+            height: 50% ;
             margin-right: auto ;
-            margin-left: auto;
+            margin-left: auto ;
             margin-top: 20px ;
             margin-bottom: 20px ;
             justify-content: center ;
+            align-items: center ;
 
 }
 
 .container{
         border: 10px solid orange ;
-        margin: 20px ;
-
+        height: 420px ;
+        width: 350px ;
+        padding: 20px ;
 }
 
 .grid1{
