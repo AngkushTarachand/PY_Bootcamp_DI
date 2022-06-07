@@ -1,0 +1,50 @@
+/*
+#flag{
+    height100px
+    width=100px}
+
+#red
+    {background-color="red"
+    height=25px}
+
+#blue{
+    background-color=blue
+    height=25px}
+
+#yellow{
+    background=yellow
+    height=25px}
+
+#green{
+     background=green
+     height=25px}
+
+#red2{background-color="red"}
+*/
+.canvas {
+    margin:25%
+    }
+
+.flag{
+        /*display:block*/
+        width=800px;
+        height=100px;
+        border: none;
+        }
+.red {
+          background-color:red;
+         }
+
+.blue{
+        background-color:blue;
+        }
+
+.yellow{
+        background-color:yellow;
+        }
+
+.green{
+        background-color:green;
+        }
+
+

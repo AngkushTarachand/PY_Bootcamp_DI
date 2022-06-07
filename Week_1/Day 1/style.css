@@ -1,0 +1,21 @@
+*{background-color:beige }
+h3, h4, h5 {
+        color: cadetblue;}
+
+#h6_elem{color:blueviolet}
+
+.post{
+    font-size: 30px;
+    text-align: justify;
+    color: blue;
+    width: 500px;
+}
+
+
+.profile{
+    width: 500px;
+    height: 500px;
+    background-color: coral
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url("image.jpg"}

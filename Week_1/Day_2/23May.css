@@ -1,0 +1,30 @@
+p { family-font: New Times Roman}
+
+span{
+        background-color: yellow ;
+        }
+
+#CAT {
+        text-decoration: underline ;
+}
+
+#media {
+        text-align: center ;
+
+}
+
+#p1 {
+        border: 5px solid red ;
+        text-align: center ;
+        width: 1300px
+}
+table{
+    width: 1300px ;
+    height: 25px ;
+    table-layout: auto ;
+    margin: 20px ;
+}
+td , th {
+        border: 1px solid black;
+}
+

@@ -1,0 +1,91 @@
+/* * is used for all elements ih html */
+
+*{
+    text-align: right;
+}
+
+/* element */
+body{
+    background-image: url(bootprep1.jpg);
+    background-size: cover;
+    }
+/* element1 element2 : css */
+h2, p { color:red;
+     text-align:center;
+     border:5px solid rgba(60, 38, 71, 10%);
+     cursor: pointer ;
+     }
+
+/* element1 element2: subset of an element */
+h2 p{
+    color:yellow;
+    text-align: left;
+    border: 10px solid white;
+}
+
+/*hover*/
+h2 + p:hover{
+    color:green;
+    text-align:center;
+    border:5px solid rgba(60, 38, 71, 10%);
+    cursor: pointer ;
+     }
+
+
+li {
+    list-style: none;
+    display : inline;
+}
+    /* while using class, .[name of the class]{}*/
+.webtext:first-child {
+     border: 5px dashed green;
+}
+
+.webtext1:last-child {
+     border: 5px dashed orange;
+}
+    /* a second class can be added while using class */
+.active{
+    color: blue;
+}
+    /* while using id, #[name of the id] {} is used*/
+
+#div1 {
+        background: rgba(135, 118, 143, 65%);
+        }
+#div2 {
+        background: rgba(60, 38, 71, 45%);
+}
+
+#div3 {
+        color:white;!important
+        line-height:50px;!important
+        font-style: italic;!important
+        font-weight: bold;!important
+        font-size: 80%!important
+        family font: 'Poiret one', cursive;!important
+        }
+
+.boxmodel{
+            border: 5px solid cyan;
+            display: inline-block;
+            padding: 5px 5px 5px 5px;
+            margin: 5 px ;
+            width: 10px
+            height: 10px
+}
+
+img{
+    float: right
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+
+
+
+
+
+
