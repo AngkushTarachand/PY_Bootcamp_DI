@@ -28,15 +28,15 @@ console.log(grade)
 if ( grade > 90){
             console.log("A");
 }
-else if ( 80 < grade <= 90 ){
+else if (90>= grade > 80 ){
             console.log("B");
 }
-else if ( 70 <= grade <= 80 ){
+else if ( 80 >= grade >= 70 ){
             console.log("C");
 }
-else ( 70 > grade )
+else{
             console.log("D");
-
+}
 
 
 
