@@ -194,7 +194,7 @@ console.log(status) ;
 console.log(Number(status)) ;
 
 //let expression=Boolean(value: 8>9);
-console.log(expression) ;
+//console.log(expression) ;
 
 
 
