@@ -1,0 +1,53 @@
+body {
+        margin: 30px ;
+        background-color: #FFDFBF ;
+
+}
+.Image{
+        width: 400px ;
+        height: 550px ;
+}
+
+.home-intro{
+            font-family: 'Dancing Script', cursive;
+            font-size: 100px ;
+            text-align: center ;
+
+}
+
+
+
+
+
+.container1{
+        border: 10px solid orange ;
+        height: 350px ;
+        width: 420px ;
+        padding: 20px ;
+        margin: 30px ;
+        justify-content: center ;
+}
+
+.About{
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        text-align: center ;
+        }
+
+.horizontal-line{
+        width: 200px ;
+        border-color: red ;
+}
+
+.footer{
+        display: list-inline ;
+        background-color: brown ;
+        margin: 0px !important;
+        padding: 30px  ;
+}
+
+.background{
+        background-color: #333333 ;
+        color:#FFDFBF ;
+        margin: 0px !important ;
+}

@@ -1,7 +1,8 @@
+/*
 .Portfolio{
 
             display: grid ;
-            /* border: 5px solid black ;*/
+            border: 5px solid black ;
             grid-template-columns: repeat(3, 350px)  ;
             grid-template-rows: repeat(2, 420px) ;
             grid-gap: 5px ;
@@ -13,16 +14,16 @@
             margin-bottom: 20px ;
             justify-content: center ;
             align-items: center ;
-
-}
+}*/
 
 .container{
         border: 10px solid orange ;
-        height: 420px ;
-        width: 350px ;
+        height: 350px ;
+        width: 420px ;
         padding: 20px ;
+        margin: 20px auto 20px auto;
 }
-
+/*
 .grid1{
     grid-column: 1 ;
     grid-row: 1 ;
@@ -46,4 +47,10 @@
 .grid5{
     grid-column: 3 ;
     grid-row: 2 ;
+}
+*/
+
+.left-navbar{
+        list-style: none ;
+        display: inline ;
 }
