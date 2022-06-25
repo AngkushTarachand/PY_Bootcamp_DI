@@ -32,7 +32,7 @@ function randNumBetween(max){
 function compareNumbers(userNumber, computerNumber){
         if ( userNumber === computerNumber){
             alert("Winner.")
-            break;
+
         }
         else {
             do
@@ -51,7 +51,7 @@ function compareNumbers(userNumber, computerNumber){
 
                 }
 
-            while(i=o ; i<3 ; i++);
+            while(i=0 ; i<3 ; i++);
             alert("Out of chances" );
         }
 }

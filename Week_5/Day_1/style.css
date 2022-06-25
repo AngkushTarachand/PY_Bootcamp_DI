@@ -1,0 +1,13 @@
+.profiles{
+        border: 1px solid black;
+        border-radius: 10px ;
+        margin: 10px;
+        width: 300px ;
+        text-align: center ;
+        padding: 30px ;
+}
+
+.main{
+        display: flex ;
+        flex-wrap : wrap ;
+}

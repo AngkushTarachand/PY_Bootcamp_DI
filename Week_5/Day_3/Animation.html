@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation using DOM</title>
+    <style>
+        #outer{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            position: relative;
+        }
+
+        #inner{
+            height: 50px;
+            width: 50px;
+            background-color: orange;
+            position: absolute;
+            top: 0 ;
+            left: 0 ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animations</h1>
+
+    <button type="button" onclick="set_timeout()">  Set Timeout  </button>
+    <button type="button" onclick="clear_timeout()">clear Timeout</button>
+    <button type="button" onclick="set_interval()">  set Interval </button>
+    <button type="button" onclick="clear_interval()"> clear Interval </button>
+
+    <button type="button" onclick="move_it()"> Move the box </button>
+
+    <div id="outer">
+        <div id="inner">
+
+        </div>
+    </div>
+    <script src="animation.js" charset="utf-8"></script>
+</body>
+</html>

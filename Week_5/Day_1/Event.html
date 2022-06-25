@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Event </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> DOM EVENTS</h1>
+
+    <button type="button" name="button" id="btn-1" onclick="button_click()"> Button </button>
+
+    <div>
+        <button type="button" id="btn-2">Button 2 </button>
+    </div>
+
+    <button type="button" id="btn-3"> Create Profiles </button>
+
+    <button type="button" id="btn-4" onclick = "alert(this.innerText)">Create Alert</button>
+
+    <table id="sampleTable" border="1">
+        <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+        </tr>
+        <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+        </tr>
+    </table>
+
+    <input type="button" onclick="insertRow()" value="Insert row">
+
+
+
+<script src="event.js" charset="utf-8"></script>
+
+</body>
+</html>
