@@ -1,0 +1,249 @@
+body{
+        background-color: #b1c5c8  ;
+        position: relative;
+
+}
+
+.Global{
+    display:flex;
+    flex-direction: column;
+    padding:12px ;
+    margin: 0px;
+    height: 64px;
+    border: 1px solid blue;
+    font-size: 16px;
+
+}
+
+.positionNavbar{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    grid-template-areas: "nav-left nav-middle nav-right" ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10px ;
+    grid-gap: 10px ;
+
+
+}
+
+#NavbarUlId{
+    display: inline;
+    list-style-type: none;
+}
+
+.navbarLi{
+    display: inline;
+}
+
+.Navbar-left{
+    grid-area: nav-left ;
+    display:flex ;
+    justify-content: flex-start;
+}
+
+.Navbar-middle{
+    display: flex ;
+    justify-content: center ;
+}
+
+.Navbar-right{
+    grid-area: nav-right;
+    display: flex;
+    justify-content: space-between ;
+
+}
+
+.POS{
+    align-items: stretch;
+    display: inline-flex;
+}
+
+.WidePage{
+    background-color: #170358;
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.WidePageInner{
+    width: 80%;
+    height: 250px;
+    background-color: #170358;
+    display: flex;
+    align-items: center ;
+    justify-items: center ;
+    align-content: center ;
+    justify-content: center ;
+}
+
+.WidePageContent{
+    background-color: #170358;
+    height: 215px;
+    width: 100%;
+}
+
+.FooterInner{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.FooterEnd{
+    display: flex;
+    justify-content: space-between ;
+
+}
+
+.FooterSection{
+        display: flex;
+        padding: 10px ;
+        flex: 1 0 auto;
+        justify-content: center ;
+        width: 25%;
+}
+
+.FooterGroup{
+    padding: 0px ;
+}
+.FooterSubtitle{
+    display:block;
+    margin: 0px 0px 36px;
+    font-size: 20px ;
+    text-decoration: bold ;
+}
+
+.footerLink{
+    font-size: 14px ;
+    margin: 0px 0px 16px 0px;
+    list-style-type: none;
+}
+
+.Ul-style{
+    list-style-position: inside;
+    padding: 0px;
+}
+
+.FollowUsDisplay{
+    display: flex
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.LogoFooter{
+    width: 100%;
+    height: 60%;
+    padding:10px;
+}
+/*----------------------About Us CSS---------------------*/
+.aboutUsLayout{
+
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center ;
+    margin: 20px auto 20px auto;
+}
+
+.Logo{
+        width: 50%;
+
+        margin: 12px 10px 12px 12px ;
+}
+
+.AboutUsContent{
+        width: 50% ;
+
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 40px ;
+        margin: 12px 12px 12px 12px ;
+        font-size: 20px;
+}
+/*------------------END Of ABOUT US CSS------------------*/
+
+
+/* ------------------HOME PAGE: CAROUSEL-----------------
+.CarouselGlobal{
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    background-color:red;
+    margin: 20px;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+    justify-items: center ;
+    align-content: center;
+    align-items: center
+}
+
+.Carousel{
+    background-color: blue;
+    width: 70%;
+    height:  28vh ;
+}
+
+---------------------------*/
+
+.OrganisationGlobal{
+
+    width: 100% ;
+    height: 50vh ;
+    display: flex;
+    justify-content: center;
+}
+
+.InfoOrganisation{
+
+    width: 90% ;
+    height: 50vh ;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center ;
+
+}
+
+.OrganisationLogo{
+
+    height: 90% ;
+    width: 40% ;
+    margin: 10px;
+}
+
+.OrganisationDetail{
+
+    height: 90% ;
+    width: 60% ;
+    margin: 10px;
+    font-size: 15px ;
+    display: flex;
+    align-items: center ;
+    padding: 30px ;
+}
+
+.Logo-InfoOrganisation{
+        width: 100%;
+        height: 100%;
+}
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
