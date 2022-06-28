@@ -1,0 +1,210 @@
+body{
+       background-color: #b1c5c8  ;
+}
+.Global{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    margin: 0px 0px 0px 0px;
+
+}
+.side-nav{
+
+    width: 18%;
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    /*border: 1px solid;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;*/
+}
+
+.main{
+    width: 60%;
+    height: 90vh;
+}
+
+.logoGlobal{
+    width:100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 90%;
+    height: 90%;
+
+}
+
+.HomePageLink{
+    display: flex;
+    justify-content: center;
+}
+.CategoriesGlobal{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Categories{
+    width: 90%;
+    height: 90%;
+
+    padding: 1px;
+}
+
+.list-block{
+    display: block;
+    width: 100%;
+}
+
+.Main-header{
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr;
+    grid-template-rows: 1rem;
+    grid-template-areas: "List Cart Search";
+    grid-gap: 5px;
+}
+.List{
+    grid-area: List;
+
+}
+
+.Cart{
+    grid-area: Cart;
+    padding:10px;
+}
+
+.Search{
+    grid-area: Search;
+    padding:10px;
+}
+.NearDraw{
+    width: 100%;
+    height:30%;
+    text-align: right;
+    background-image: url(LoremPic.webp);
+
+}
+
+.productGridDisplay{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+
+}
+
+.ProductGrid{
+
+    width: 25%;
+    height: 90%;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.ProductGridDisplay{
+
+    width:90%;
+    height: 45%;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    display; flex;
+    flex-direction: column;
+
+}
+
+.ProductPic{
+    height: 70%;
+    font-size:15px;
+    line-height: 90%;
+    padding: 0px 0px 0px 0px;
+}
+.ProductDetail{
+    height: 20%;
+    font-size:15px;
+    line-height: 10%;
+    /*padding: 0px 0px 0px 0px;*/
+}
+
+.MainFooter1{
+    background-color: black;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.MainFooterList{
+
+    width: 20%;
+    height: 80%;
+    padding: 10px;
+    color: inherit;
+}
+
+.MainFooterList1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 90%;
+}
+
+.SubFooterList{
+    width: 90%;
+    height: 45%;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    line-height: 80%;
+}
+
+.footerListStyle{
+    list-style-type: none;
+}
+
+.Ul-style{
+    list-style-position: inside;
+    padding: 0px;
+}
+.ProductPic{
+    display: flex ;
+    position: relative;
+}
+
+.button-middle{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.
