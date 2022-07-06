@@ -1,0 +1,85 @@
+body{
+    background: lightblue;
+    align-items: center;
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	min-height: 50%;
+	margin: 10%;
+}
+
+.container{
+        width: 90%;
+        height: 90%;
+        border-radius: 15px;
+        background: lightblue ;
+        display: flex;
+        flex-direction: row;
+        border: 10px solid blue;
+        justify-content: flex-end;
+
+}
+
+.ProductDetail{
+        display: flex ;
+        justify-content: space-between ;
+        flex-direction: column ;
+        background: lightblue ;
+        width: 70% ;
+        height: 400px
+        padding: ;
+        margin: 10px;
+}
+.Summary{
+        display: flex ;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: blue ;
+        width: 30% ;
+        height: 400px ;
+        padding: 10px;
+        margin: 10px;
+        border: 10px solid lightblue;
+        border-radius: 10px;
+        color: white;
+}
+
+.header{
+        display: flex;
+        flex-direction: row ;
+
+        justify-content: space-between;
+        height: 10%;
+
+}
+
+.headerLeft{
+        display: flex;
+        justify-content: flex-start;
+
+        height: 100% ;
+        width: 10% ;
+}
+
+.headerRight{
+        display: flex ;
+        justify-self: flex-end;
+
+        height: 100% ;
+        width: 30% ;
+}
+
+.body{
+        width: 100% ;
+        height: 300px ;
+}
+
+table{
+        width: 100%;
+}
+
+tr, th{
+    border-bottom: 1px solid;
+    width: 30%;
+}
+
