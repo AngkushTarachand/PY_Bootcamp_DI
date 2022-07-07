@@ -42,7 +42,15 @@ my_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit," \
 print(len(my_text))
 
 # ------------------ Exercise 5 --------------------------#
+
 sentence = input("Please enter a sentence without character 'A' ")
 
-
-
+if sentence.find("A") == -1:
+    new_record = 0
+    if len(sentence) > new_record:
+        print("New longest sentence")
+        new_record = len(sentence)
+    else:
+        print("Try Again")
+else:
+    print("Sorry contains 'A' ")
