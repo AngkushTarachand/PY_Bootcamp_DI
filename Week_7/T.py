@@ -27,32 +27,70 @@ position_dic = {
     8: 153,
     9: 161
 }
+
 show_list_default = list(show)
 
 
 def player_input(player):
     print(player)
-    position_entered = int(input("Please enter your position"))
-
-    if 1 <= position_entered <= 9:
-        print(position_entered)
+    position_entered = input("Please enter your position")
+    position_entered_int = int(position_entered)
+    if 1 <= position_entered_int <= 9 and position_entered in show_list_default:
+        print(position_entered_int)
         print("Testing: ")
-        print(show_list_default[position_dic[position_entered]])
-        position_entered = position_dic[position_entered]
+        print(show_list_default[position_dic[position_entered_int]])
+        position_entered_int = position_dic[position_entered_int]
         if player is "Player_X":
-            show_list_default[position_entered] = "X"
+            show_list_default[position_entered_int] = "X"
             print(' '.join(show_list_default))
         elif player is "Player_O":
-            show_list_default[position_entered] = "O"
+            show_list_default[position_entered_int] = "O"
             print(' '.join(show_list_default))
-    elif show_list_default[position_dic[position_entered]] is "X":
+    elif show_list_default[position_dic[position_entered_int]] is "X":
         print("Already taken")
-    elif show_list_default[position_dic[position_entered]] is "O":
+    elif show_list_default[position_dic[position_entered_int]] is "O":
         print("Already taken")
     else:
         print("Wrong input")
 
 
-players = ["Player_X", "Player_O"]
-for play in players:
-    player_input(play)
+def check_win():
+    if show_list_default[position_dic[1]] is show_list_default[position_dic[2]] is \
+            show_list_default[position_dic[3]]:
+
+        print("Winner")
+    elif show_list_default[position_dic[4]] is show_list_default[position_dic[5]] is \
+            show_list_default[position_dic[6]]:
+        print("Winner")
+    elif show_list_default[position_dic[7]] is show_list_default[position_dic[8]] is \
+            show_list_default[position_dic[9]]:
+        print("Winner")
+    elif show_list_default[position_dic[1]] is show_list_default[position_dic[4]] is \
+            show_list_default[position_dic[7]]:
+        print("Winner")
+    elif show_list_default[position_dic[2]] is show_list_default[position_dic[5]] is \
+            show_list_default[position_dic[8]]:
+        print("Winner")
+    elif show_list_default[position_dic[3]] is show_list_default[position_dic[6]] is \
+            show_list_default[position_dic[9]]:
+        print("Winner")
+    elif show_list_default[position_dic[1]] is show_list_default[position_dic[5]] is \
+            show_list_default[position_dic[9]]:
+        print("Winner")
+    elif show_list_default[position_dic[3]] is show_list_default[position_dic[5]] is \
+            show_list_default[position_dic[7]]:
+        print("Winner")
+
+
+def play_game():
+    players = ["Player_X", "Player_O"]
+    counter = 0
+    flag = False
+    while counter < 9 or flag is False:
+        for play in players:
+            counter = counter + 1
+            player_input(play)
+            check_win()
+            print("Win?")
+    else:
+        print("No winner")
