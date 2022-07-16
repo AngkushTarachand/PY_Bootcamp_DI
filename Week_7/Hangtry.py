@@ -29,9 +29,10 @@ while counter < length_word:
         if character_input in guess_word_list:
             print("Already Entered. Try again")
         else:
-            index = word_list.index(character_input)
-            guess_word_list[index] = character_input
-            print(guess_word_list)
+            for each in word_list:
+                index = word_list.index(character_input)
+                guess_word_list[index] = character_input
+                print(guess_word_list)
     else:
         print("Wrong Input")
     counter = counter + 1

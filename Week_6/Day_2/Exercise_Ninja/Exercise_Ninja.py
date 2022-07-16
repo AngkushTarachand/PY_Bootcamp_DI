@@ -59,3 +59,5 @@ if sentence.find("A") == -1:
 
 else:
     print("Sorry contains 'A' ")
+
+# print(''.join(random.sample(word, len(word))))
