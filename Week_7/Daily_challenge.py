@@ -1,3 +1,5 @@
+import re
+
 print("Daily Challenge")
 
 # matrix = ["7", "T", "h", "i", "s", "$", "#"]
@@ -13,8 +15,6 @@ matrix = [
     "^r!"
 ]
 
-import re
-res = None
-temp = re.search(r'[a-z]', matrix, re.I)
+row_length = len(matrix)
 
 
