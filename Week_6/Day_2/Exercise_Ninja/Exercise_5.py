@@ -1,3 +1,5 @@
+print("Week 6 Day 2 ")
+
 # ------------------ Exercise 5 --------------------------#
 
 sentence = input("Please enter a sentence without character 'A' ")

@@ -1,3 +1,5 @@
+print("Exercise XP Week 6 Day 4")
+
 # ------------------------ Exercise 11 --------------------- #
 print("deli has run out of pastrami")
 sandwich_orders1 = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich",
