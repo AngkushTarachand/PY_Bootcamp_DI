@@ -82,9 +82,9 @@ print("Week 6 Day 4 Exercise Gold")
 # total = sum(num_list)
 # print(total)
 # ----------- Exercise 7 -------------- #
-sequence = input("Enter a sequence separated by ','")
-
-print(sequence)
+# sequence = input("Enter a sequence separated by ','")
+#
+# print(sequence)
 # ----------- Exercise 8 -------------- #
 # import random
 # flag = False
