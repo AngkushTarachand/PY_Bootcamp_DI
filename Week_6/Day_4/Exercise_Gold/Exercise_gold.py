@@ -66,7 +66,7 @@ print("Week 6 Day 4 Exercise Gold")
 #     else:
 #         print("Sorry try next time")
 
-# ----------- Exercise 6 -------------- #
+# ----------- Exercise 7 -------------- #
 # num_list = []
 #
 # num = range(1, 1000001)
@@ -81,11 +81,13 @@ print("Week 6 Day 4 Exercise Gold")
 #
 # total = sum(num_list)
 # print(total)
-# ----------- Exercise 7 -------------- #
+
+# ----------- Exercise 8 -------------- #
 # sequence = input("Enter a sequence separated by ','")
 #
 # print(sequence)
-# ----------- Exercise 8 -------------- #
+
+# ----------- Exercise 9 -------------- #
 # import random
 # flag = False
 # counter_win = 0

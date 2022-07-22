@@ -1,3 +1,6 @@
+print("Week 6 Day 4 Exercise Gold")
+
+# ----------- Exercise 6 -------------- #
 word_list = []
 counter = 0
 while counter < 2:
