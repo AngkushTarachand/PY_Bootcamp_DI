@@ -3,7 +3,7 @@ print("Daily Challenge")
 
 class Farm:
 
-    def __int__(self, farm_name):
+    def __init__(self, farm_name):
         self.farm_name = farm_name
         self.animals = {}
 
