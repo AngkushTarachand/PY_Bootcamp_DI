@@ -10,7 +10,7 @@ class Animal:
 
 class Dog(Animal):
     def __int__(self, animal_type, number_legs, sound, is_lazy):
-        super().__int__(type, number_legs, sound)
+        super().__int__(animal_type, number_legs, sound)
         self.is_lazy = is_lazy
 
     def fetch_ball(self):

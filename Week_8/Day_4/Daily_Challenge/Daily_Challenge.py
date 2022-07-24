@@ -1,6 +1,6 @@
-class Pagination:
-    def __int__(self, items, page_size=10):
-        self.items = []
+class Test:
+    def __init__(self, items, page_size=10):
+        self.items = items
         self.page_size = page_size
 
     def get_visible_items(self):
@@ -11,30 +11,31 @@ class Pagination:
         print(self.items)
 
     def first_page(self):
-        for f in range(0, self.page_size):
+        for f in range(self.page_size):
             print(self.items[f])
 
     def last(self):
         last = []
         remainder = len(self.items) % self.page_size
-        if remainder is 0:
+        if remainder == 0:
             last.clear()
             for x in range(-1, -remainder-1):
                 last.append(list[x])
-        elif remainder is 1:
+        elif remainder == 1:
             last.clear()
             for x in range(-1, -remainder):
                 last.append(list[x])
-        elif remainder is 2:
+        elif remainder == 2:
             last.clear()
             for x in range(-1, -remainder+1):
                 last.append(list[x])
-        elif remainder is 3:
+        elif remainder == 3:
             last.clear()
-            for x in range(-1, remainder+2):
+            for x in range(-1, -remainder+2):
                 last.append(list[x])
 
 
-alphabet_list = "abcdefghijklmnopqrstuvwxyz".split(',')
+alphabet_list = list("abcdefghijklmnopqrstuvwxyz")
 
-p = Pagination(alphabet_list, 4)
+p = Test(alphabet_list, 4)
+p.get_visible_items()
