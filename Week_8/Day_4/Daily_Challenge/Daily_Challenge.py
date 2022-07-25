@@ -59,4 +59,17 @@ class Pagination:
 alphabet_list = list("abcdefghijklmnopqrstuvwxyz")
 
 p = Pagination(alphabet_list)
-
+p.next_page()
+p.next_page()
+p.next_page()
+p.next_page()
+p.next_page()
+p.get_visible_items()
+p.next_page()
+p.get_visible_items()
+p.next_page()
+p.get_visible_items()
+p.last()
+p.get_visible_items()
+p.prev_page()
+p.get_visible_items()

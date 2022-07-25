@@ -20,11 +20,12 @@ class Pagination:
             print("get visible", str(self.current_page))
 
     def next_page(self):
-        print(self.counter, len(self.items))
+        # print(self.counter, "h", len(self.items))
         if self.counter < len(self.items) - self.page_size:
             self.counter += self.page_size
             next_items = self.items[0 + self.counter:self.page_size + self.counter:1]
             self.current_page = next_items
+        print(self.counter, "h", len(self.items) - self.page_size)
 
     def prev_page(self):
         if self.counter > self.page_size:
@@ -49,6 +50,12 @@ class Pagination:
     def go_to_page_num(self, page_num):
         if page_num == round(len(self.items)/self.page_size):
             self.counter = page_num*self.page_size
+            print(round(len(self.items)/self.page_size), "n", page_num*self.page_size)
+        elif page_num == round(len(self.items)/self.page_size) - 1:
+            print("q", page_num, round(len(self.items)/self.page_size) - 1)
+            self.counter = page_num*self.p
+        else:
+            pass
 
         if page_num == 0 or page_num < round(len(self.items) / self.page_size):
             self.current_page = (self.items[(page_num - 1) * self.page_size:page_num * self.page_size: 1])
@@ -62,12 +69,9 @@ class Pagination:
 alphabet_list = list("abcdefghijklmnopqrstuvwxyz")
 
 p = Pagination(alphabet_list)
-print(1)
-p.go_to_page_num(1)
-p.get_visible_items()
-print(2)
+
 p.next_page()
 p.get_visible_items()
-print(3)
-p.prev_page()
+
+p.next_page()
 p.get_visible_items()
