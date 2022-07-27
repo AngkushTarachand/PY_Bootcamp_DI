@@ -58,7 +58,7 @@ class Mage(Character):
 
     def summon(self):
         self.attack += 3
-        # print(f"{self.name}'s life: {self.attack}")
+        print(f"{self.name}'s life: {self.attack}")
 
     def cast_spell(self, enemy):
         enemy.life -= (self.attack/self.life)
@@ -69,5 +69,6 @@ Warrior = Warrior("Breki")
 Mage = Mage("Shukra")
 
 Mage.summon()
+
 
 
