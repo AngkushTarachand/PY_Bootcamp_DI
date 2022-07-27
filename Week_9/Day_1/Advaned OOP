@@ -1,0 +1,13 @@
+counter is class attribute
+
+instance attribute is different for each instance,
+eg. name instance
+def __init__()
+    self.instance ==> instance attribute
+
+.__name => private property
+cannot be changed as common way
+
+dunder methods are dir in python
+__Command__
+

@@ -1,5 +1,5 @@
 class Dog:
-    def __int__(self, name, age, weight):
+    def __init__(self, name, age, weight):
         self.name = name
         self.age = age
         self.weight = age
@@ -19,6 +19,11 @@ class Dog:
         else:
             return other_dog.name
 
-Ben = Dog("Ben")
-Cliford = Dog("Cliford")
-Bill = Dog("Bill")
+
+Ben = Dog("Ben", 4, 14)
+Cliford = Dog("Cliford", 5, 30)
+Bill = Dog("Bill", 9, 23)
+other_dog = Bill
+
+print(Ben.fight(Bill))
+print(Ben.bark())

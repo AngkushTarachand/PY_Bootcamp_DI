@@ -1,10 +1,8 @@
-import random
-
-class Dog():
-    def __int__(self, name, age, weight):
+class Dog:
+    def __init__(self, name, age, weight):
         self.name = name
         self.age = age
-        self.weight = age
+        self.weight = weight
 
     def bark(self):
         return "{} is barking".format(self.name)
@@ -24,22 +22,24 @@ class Dog():
 
 class PetDog(Dog):
     def __int__(self, trained):
-        self.trained = trained
-
-        trained = False
+        self.trained = False
 
     def train(self):
-        print("bark")
-        trained = True
+        print(f"{self.name}bark")
+        self.trained = True
 
     def play(self, *args):
-        print("{} all play together".format{*args})
+        print(f"{self.name} all play together")
 
-    def do_a_trick:
+    def do_a_trick(self):
         do_a_trick_dict = {
             1: [f'{self.name} does a barrel roll'],
             2: [f'{self.name} stands on his back legs'],
             3: [f'{self.name} shakes your head'],
             4: [f'{self.name} plays dead']
         }
+        return do_a_trick_dict
 
+
+Ben = Dog(12, 16, 23)
+print(PetDog(Dog(12, 16, 23)))

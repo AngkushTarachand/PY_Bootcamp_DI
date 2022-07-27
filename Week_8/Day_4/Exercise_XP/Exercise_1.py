@@ -1,5 +1,5 @@
 class Pets:
-    def __int__(self, animals):
+    def __init__(self, animals):
         self.animals = animals
 
     def walk(self):
@@ -29,14 +29,14 @@ class Chartreux(Cat):
 
 
 class Siamese(Cat):
-    def __int__(self, name, age):
+    def __int__(self, name="Siamese", age=5):
         super().__init__(name, age)
 
 
 all_cats = [Bengal, Chartreux, Siamese]
 
 for cat in all_cats:
-    sara_pets = Pets(cat)
-    sara_pets.walk
+    sara_pet = Cat(cat,89 )
+    sara_pet.walk()
 
 
