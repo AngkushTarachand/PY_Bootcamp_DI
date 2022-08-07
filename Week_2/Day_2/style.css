@@ -1,0 +1,39 @@
+.header{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.middle{
+    height: 100%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 1fr;
+
+}
+
+.middle-start, .middle-end, .middle-middle{
+    border: 10px solid red;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.middle-start{
+    grid-column: 1 / 2 ;
+    width: 100%;
+
+}
+
+.middle-middle{
+    grid-column: 2 / 3;
+    width: 100%;
+}
+
+.middle-end{
+    grid-column: 3 / 4;
+    width: 100%;
+}
