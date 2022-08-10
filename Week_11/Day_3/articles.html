@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='borders.css')}}" />
+</head>
+<body>
+    {% for key in articles%}
+    <p> list of article: {{key}} => {{articles[key}}</p>
+    {% endfor %}
+</body>
+</html>

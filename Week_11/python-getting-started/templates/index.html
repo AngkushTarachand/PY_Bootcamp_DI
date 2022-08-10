@@ -1,0 +1,51 @@
+{% extends "base_template.html" %}
+
+
+{% block title %}index{% endblock%}
+
+{% block body %}
+
+    {% if  firstname == "bob" %}
+        <h1>Hello Bob</h1>
+    {% elif firstname == "alice" %}
+        <h1>Hello Alice</h1>
+    {% else %}
+        <h1>unknown user</h1>
+    {% endif %}
+
+{% endblock %}
+
+
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Home Page - Microblog</title>#}
+{#</head>#}
+{##}
+{##}
+{#   <body>#}
+{#    {% if  firstname == "bob" %}#}
+{#        <h1>Hello Bob</h1>#}
+{#    {% elif firstname == "alice" %}#}
+{#        <h1>Hello Alice</h1>#}
+{#    {% else %}#}
+{#        <h1>unknown user</h1>#}
+{#    {% endif %}#}
+{#    <br>#}
+{##}
+{#   {% for user in  users %}#}
+{#    <h2>The name of the user is {{ user }}</h2>#}
+{#   {% endfor %}#}
+{##}
+{##}
+{#   {% for user in ["bob", "alice"] %}#}
+{#    <h3>The name of the user is {{ user }}</h3>#}
+{#   {% endfor %}#}
+{##}
+{##}
+{##}
+{#    </body>#}
+{#</html>#}
