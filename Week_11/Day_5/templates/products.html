@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for product in products %}
+    <div class="product">
+        <p> {{ product }} </p>
+    </div>
+    <div class="product_id">
+        <p> {{ product['ProductId'] }} </p>
+        <button onclick="/cart"> Buy now </button>
+    </div>
+
+    {% endfor %}
+</body>
+</html>
