@@ -1,16 +1,12 @@
 .main{
     display: flex;
     flex-direction: row;
-
-
-    width: 700px;
-    height: 42.5px;
+    margin: auto;
 }
 
 .dimension{
     height: 30px;
     width: 30px;
-    border: 1px solid black;
 }
 
 .grid1{
@@ -21,4 +17,9 @@
 }
 .grid3{
     background-color: red;
+}
+.background{
+    border: 1px solid pink;
+    width: 480px;
+    margin: auto;
 }
