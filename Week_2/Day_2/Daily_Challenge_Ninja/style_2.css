@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: row;
+
+
+    width: 700px;
+    height: 42.5px;
+}
+
+.dimension{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}
+
+.grid1{
+    background-color: white;
+}
+.grid2{
+    background-color: pink;
+}
+.grid3{
+    background-color: red;
+}
