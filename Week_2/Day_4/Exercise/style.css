@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.size{
+    width: 100%;
+}
+
+.space{
+    width: 50px;
+}
+
+.header{
+    font-size: 50px;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}

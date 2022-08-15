@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
 </head>
 <body>
-    {% for product in products %}
-    <div class="product">
-        <p> {{ product }} </p>
-    </div>
-    <div class="product_id">
-        <p> {{ product['ProductId'] }} </p>
-        <button onclick="/cart"> Buy now </button>
+    <div class="display">
+        {% for product in products %}
+            <div class="product-grid">
+                {% for item in product.items() %}
+                    {{item}}<br>
+                {% endfor%}
+
+
+
+            </div>
+        {% endfor %}
     </div>
 
-    {% endfor %}
 </body>
 </html>
