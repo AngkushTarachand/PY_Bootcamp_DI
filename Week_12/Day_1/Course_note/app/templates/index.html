@@ -1,0 +1,16 @@
+{% extends "base_template.html" %}
+
+
+{% block title %}index{% endblock%}
+
+{% block body %}
+
+    {% if  firstname == "Paul" %}
+        <h1>Hello Paul</h1>
+    {% elif firstname == "Sam" %}
+        <h1>Hello Sam</h1>
+    {% else %}
+        <h1>unknown user</h1>
+    {% endif %}
+
+{% endblock %}
