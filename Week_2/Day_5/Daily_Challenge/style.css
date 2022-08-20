@@ -1,0 +1,42 @@
+
+.dimensions{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin: 20px;
+}
+
+.fade:hover{
+    opacity: 0.3;
+}
+.color:hover{
+    background-color: pink;
+}
+.grow:hover {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+.shrink:hover{
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+}
+.rotate:hover{
+    -webkit-transform: rotateZ(-130deg);
+    -ms-transform: rotateZ(-130deg);
+    transform: rotateZ(-130deg)
+}
+.circle:hover{
+    border-radius: 50%;
+}
+.3d&shadow:hover{
+    box-shadow:
+        1px 1px blue,
+        2px 2px orange,
+        3px 3px yellow,
+        4px 4px pink;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+}
+
