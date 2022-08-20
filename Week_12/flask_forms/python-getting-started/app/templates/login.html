@@ -1,0 +1,54 @@
+{% extends "base_template.html" %}
+
+
+{% block title %}index{% endblock%}
+
+{% block body %}
+    {{ super() }}
+
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.username.label }}
+        <br>
+        {{ form.username(size=32) }}
+        <br>
+
+        {% for error_message in form.username.errors %}
+            {{ error_message }}
+        {% endfor %}
+        <br>
+        {{ form.password.label }}
+        <br>
+        {{ form.password(size=32) }}
+        <br>
+
+        {% for error_message in form.password.errors %}
+            {{ error_message }}
+        {% endfor %}
+
+        <br>
+        {{ form.age_grater_than_18.label }}
+        {{ form.age_grater_than_18() }}
+
+        <br>
+        {{ form.hoppyies() }}
+
+        <br>
+        {{ form.hoppyies_select() }}
+
+        <br>
+        {{ form.cv() }}
+
+
+        <br>
+        <br>
+        {{ form.submit() }}
+
+    </form>
+
+
+
+{% endblock %}
+
