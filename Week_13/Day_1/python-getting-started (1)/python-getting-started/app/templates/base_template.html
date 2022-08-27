@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='borders.css')}}" />
+</head>
+<body>
+    <a href={{ url_for('loginPage') }}>login</a>
+    <a href={{ url_for('index', name="bob") }}>index</a>
+    <a href={{ url_for('registerPage') }}>register</a>
+
+    {% block body %}
+        <h2>Hello to my website</h2>
+    {% endblock %}
+
+</body>
+</html>

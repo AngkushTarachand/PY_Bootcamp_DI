@@ -1,0 +1,35 @@
+{% extends "base_template.html" %}
+
+
+{% block title %}index{% endblock%}
+
+{% block body %}
+    {{ super() }}
+
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.username.label }}
+        <br>
+        {{ form.username(size=32) }}
+        <br>
+
+        <br>
+        {{ form.password.label }}
+        <br>
+        {{ form.password(size=32) }}
+        <br>
+
+
+
+        <br>
+        <br>
+        {{ form.submit() }}
+
+    </form>
+
+
+
+{% endblock %}
+
