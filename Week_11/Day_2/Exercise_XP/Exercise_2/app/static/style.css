@@ -1,0 +1,19 @@
+body{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header, .row-2, .row-3 {
+    height: 200px;
+    width: 500px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+

@@ -7,13 +7,13 @@ human_dog_table = db.Table('dogs',
 
 
 class Human(db.Model):
-	id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-	name = db.Column(db.String(64))
-	dogs = db.relationship('Dog', secondary=human_dog_table, back_populates="humans")
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(64))
+    dogs = db.relationship('Dog', secondary=human_dog_table, back_populates="humans")
 
 
 class Dog(db.Model):
-	id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-	name = db.Column(db.String(64))
-	race = db.Column(db.String(64))
-	humans = db.relationship('Human', secondary=human_dog_table, back_populates="dogs")
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(64))
+    race = db.Column(db.String(64))
+    humans = db.relationship('Human', secondary=human_dog_table, back_populates="dogs")

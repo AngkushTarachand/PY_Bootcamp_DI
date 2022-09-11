@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Virtualenvs" />
       <excludeFolder url="file://$MODULE_DIR$/pythonProject" />
       <excludeFolder url="file://$MODULE_DIR$/pythonProject1" />
+      <excludeFolder url="file://$MODULE_DIR$/prokect" />
+      <excludeFolder url="file://$MODULE_DIR$/Desktop" />
+      <excludeFolder url="file://$MODULE_DIR$/Crypto" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (py3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 2 </title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="header">
+        <div class="pic">
+            pic
+        </div>
+        <div class="name">
+            {{username}}
+        </div>
+    </div>
+    <div class="row-2">
+        <div class="hobbies">
+            <ul>
+                {% for each in user_hobbies %}
+                    <li> {{each}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="skills">
+            <ul>
+                {% for each in user_skill %}
+                    <li> {{each}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="row-3">
+        <div class="strength">
+                <ul>
+                    {% for each in user_strength%}
+                        <li> {{each }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        <div class="weakness">
+            <ul>
+                {% for each in user_weakness %}
+                    <li> {{each}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>

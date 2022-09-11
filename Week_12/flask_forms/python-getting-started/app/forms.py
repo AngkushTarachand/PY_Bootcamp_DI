@@ -5,23 +5,21 @@ from app.forms_validators import MyLengthCheckV2
 
 
 class Login(flask_wtf.FlaskForm):
-	username = wtforms.StringField("Email", [wtforms.validators.DataRequired(),
-	                                         wtforms.validators.Email(message="Please enter a valid Email")])
-	password = wtforms.PasswordField("Password",
-	                                 [wtforms.validators.DataRequired(),
-	                                  MyLengthCheckV2(max_value=10)
-	                                  # my_length_check(max_value=10),
-	                                  # wtforms.validators.Length(min=4, max=10)
-	                                  ])
+    username = wtforms.StringField("Email", [wtforms.validators.DataRequired(),
+                                             wtforms.validators.Email(message="Please enter a valid Email")])
+    password = wtforms.PasswordField("Password",
+                                     [wtforms.validators.DataRequired(),
+                                      MyLengthCheckV2(max_value=10)
+                                      # my_length_check(max_value=10),
+                                      # wtforms.validators.Length(min=4, max=10)
+                                      ])
 
-	age_grater_than_18 = wtforms.BooleanField("is your age is grater the 18")
+    age_grater_than_18 = wtforms.BooleanField("is your age is grater the 18")
 
-	hobbies = wtforms.RadioField(choices=["coding", "reading", "sleeping"])
+    hobbies = wtforms.RadioField(choices=["coding", "reading", "sleeping"])
 
-	hobbies_select = wtforms.SelectField(choices=["coding", "reading", "sleeping"])
+    hobbies_select = wtforms.SelectField(choices=["coding", "reading", "sleeping"])
 
+    cv = wtforms.MultipleFileField()
 
-	cv = wtforms.MultipleFileField()
-
-	submit = wtforms.SubmitField("Submit")
-
+    submit = wtforms.SubmitField("Submit")
